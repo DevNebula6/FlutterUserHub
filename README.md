@@ -2,7 +2,7 @@
 
 A mobile application built with Flutter that provides a comprehensive user management system with profile viewing, searching, and detailed user information.
 
-![App Banner](assets/screenshorts/splash_screen.jpg)
+![App Banner](assets\screenshorts\Screenshot_1748974184.png)
 
 ## Try It Now
 
@@ -19,23 +19,20 @@ Flutter User Hub is a feature-rich application that allows users to browse throu
 - 🔍 **Search Functionality**: Find users by name, username, or email
 - 👤 **Detailed Profiles**: View comprehensive user information
 - ❤️ **Favorites System**: Save and manage your favorite users
-- 🌓 **Theme Support**: Choose between light and dark themes
-- 🔄 **Offline Support**: Cache data for offline access
 - ✏️ **Post Management**: View and create user posts
 - ✅ **Todo Management**: Track user todos with completion status
 
 ## Screenshots
 
 <div style="display: flex; flex-wrap: wrap; gap: 10px; justify-content: center;">
-  <img src="assets/screenshorts/home.jpg" alt="Home Screen" width="250"/>
-  <img src="assets/screenshorts/profile.jpg" alt="User Profile" width="250"/>
-  <img src="assets/screenshorts/details.jpg" alt="User Details" width="250"/>
-  <img src="assets/screenshorts/search.jpg" alt="Search Feature" width="250"/>
-  <img src="assets/screenshorts/posts.jpg" alt="User Posts" width="250"/>
-  <img src="assets/screenshorts/todos.jpg" alt="Todo List" width="250"/>
-  <img src="assets/screenshorts/login.jpg" alt="Login Screen" width="250"/>
-  <img src="assets/screenshorts/architecture.jpg" alt="Architecture" width="250"/>
-  <img src="assets/screenshorts/api.jpg" alt="API Integration" width="250"/>
+  <img src="assets\screenshorts\Screenshot_1748974184.png" alt="Onboarding 1" width="250"/>
+  <img src="assets\screenshorts\Screenshot_1748974189.png" alt="Onboarding 2" width="250"/>
+  <img src="assets\screenshorts\Screenshot_1748974199.png" alt="Onboarding 3" width="250"/>
+  <img src="assets\screenshorts\Screenshot_1748974203.png" alt="Sign in" width="250"/>
+  <img src="assets\screenshorts\Screenshot_1748974145.png" alt="Home Screen" width="250"/>
+  <img src="assets\screenshorts\Screenshot_1748974158.png" alt="Search Feature" width="250"/>
+  <img src="assets\screenshorts\Screenshot_1748974211.png" alt="User Posts" width="250"/>
+  <img src="assets\screenshorts\Screenshot_1748974214.png" alt="Todo List" width="250"/>
 </div>
 
 ## App Screens
