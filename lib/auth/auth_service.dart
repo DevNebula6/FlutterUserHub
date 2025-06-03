@@ -1,11 +1,11 @@
 import 'dart:convert';
 import 'package:dio/dio.dart' show DioException;
 import 'package:flutter_secure_storage/flutter_secure_storage.dart';
-import 'auth models/auth_request.dart';
-import 'auth models/auth_response.dart';
-import 'auth models/user_model.dart';
+import '../models/auth models/auth_request.dart';
+import '../models/auth models/auth_response.dart';
+import '../user/user_model.dart';
 import 'auth_constants.dart';
-import 'http_service.dart';
+import '../services/http_service.dart';
 
 class AuthService {
   final HttpService _httpService = HttpService();

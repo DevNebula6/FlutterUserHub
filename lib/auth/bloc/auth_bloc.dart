@@ -2,7 +2,7 @@ import 'package:flutter_bloc/flutter_bloc.dart';
 import '../auth_service.dart';
 import 'auth_event.dart';
 import 'auth_state.dart';
-import '../auth models/auth_response.dart';
+import '../../models/auth models/auth_response.dart';
 
 class AuthBloc extends Bloc<AuthEvent, AuthState> {
   final AuthService _authService;

@@ -1,7 +1,7 @@
 import 'package:dio/dio.dart';
 import 'package:flutter_secure_storage/flutter_secure_storage.dart';
 
-import 'auth_constants.dart';
+import '../auth/auth_constants.dart';
 
 class HttpService {
   static final HttpService _instance = HttpService._internal();
@@ -20,13 +20,11 @@ class HttpService {
           'Content-Type': 'application/json',
           'Accept': 'application/json',
         },
-        // Don't automatically throw an exception for error status codes
-        // This allows us to handle the response and extract error messages
         validateStatus: (status) => true,
       ),
     );
     
-    // Add logging interceptor for debugging
+    // logging interceptor for debugging
     dio.interceptors.add(LogInterceptor(
       requestBody: true,
       responseBody: true,
@@ -49,7 +47,6 @@ class HttpService {
             return handler.next(response);
           }
           
-          // For error responses, extract the message if possible
           String? errorMessage;
           if (response.data is Map && response.data['message'] != null) {
             errorMessage = response.data['message'];
@@ -57,7 +54,6 @@ class HttpService {
             errorMessage = response.data;
           }
           
-          // Create a DioException with the extracted message
           return handler.reject(
             DioException(
               requestOptions: response.requestOptions,

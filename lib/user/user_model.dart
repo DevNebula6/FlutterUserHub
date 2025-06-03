@@ -1,7 +1,7 @@
 import 'package:equatable/equatable.dart';
 
 class User extends Equatable {
-  final String? id;
+  final int? id;  // Change to int to match API expectations
   final String? username;
   final String? email;
   final String? firstName; 
@@ -21,7 +21,7 @@ class User extends Equatable {
 
   factory User.fromJson(Map<String, dynamic> json) {
     return User(
-      id: json['id'],
+      id: json['id'] is String ? int.tryParse(json['id']) : json['id'],  // Handle both string and int
       username: json['username'],
       email: json['email'],
       firstName: json['firstName'],
