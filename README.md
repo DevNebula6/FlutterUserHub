@@ -2,7 +2,12 @@
 
 A mobile application built with Flutter that provides a comprehensive user management system with profile viewing, searching, and detailed user information.
 
-![App Banner](screenshots/welcome_screen.png)
+![App Banner](assets/screenshorts/splash_screen.jpg)
+
+## Try It Now
+
+[![Download APK](https://img.shields.io/badge/Download-APK-green.svg)](https://drive.google.com/file/d/1V41SC-nH0cI9xWpVKPLlRCD-beaKCixw/view?usp=drive_link)
+
 
 ## Overview
 
@@ -22,15 +27,15 @@ Flutter User Hub is a feature-rich application that allows users to browse throu
 ## Screenshots
 
 <div style="display: flex; flex-wrap: wrap; gap: 10px; justify-content: center;">
-  <img src="screenshots/user_list.png" alt="User List" width="250"/>
-  <img src="screenshots/user_details_olivia.png" alt="User Details - Olivia" width="250"/>
-  <img src="screenshots/user_details_emily.png" alt="User Details - Emily" width="250"/>
-  <img src="screenshots/search_results.png" alt="Search Results" width="250"/>
-  <img src="screenshots/create_post.png" alt="Create Post" width="250"/>
-  <img src="screenshots/todo_list.png" alt="Todo List" width="250"/>
-  <img src="screenshots/login_screen.png" alt="Login Screen" width="250"/>
-  <img src="screenshots/onboarding_bloc.png" alt="BLoC Architecture" width="250"/>
-  <img src="screenshots/onboarding_api.png" alt="API Integration" width="250"/>
+  <img src="assets/screenshorts/home.jpg" alt="Home Screen" width="250"/>
+  <img src="assets/screenshorts/profile.jpg" alt="User Profile" width="250"/>
+  <img src="assets/screenshorts/details.jpg" alt="User Details" width="250"/>
+  <img src="assets/screenshorts/search.jpg" alt="Search Feature" width="250"/>
+  <img src="assets/screenshorts/posts.jpg" alt="User Posts" width="250"/>
+  <img src="assets/screenshorts/todos.jpg" alt="Todo List" width="250"/>
+  <img src="assets/screenshorts/login.jpg" alt="Login Screen" width="250"/>
+  <img src="assets/screenshorts/architecture.jpg" alt="Architecture" width="250"/>
+  <img src="assets/screenshorts/api.jpg" alt="API Integration" width="250"/>
 </div>
 
 ## App Screens
@@ -64,8 +69,12 @@ flutter_user_hub/
 │   ├── themes/           # App themes
 │   └── main.dart         # Entry point
 ├── assets/               # Images, fonts, and other static files
+│   └── screenshorts/     # App screenshots
 ├── test/                 # Unit and widget tests
-└── screenshots/          # App screenshots for documentation
+└── build/
+    └── app/
+        └── outputs/
+            └── apk/      # Generated APK files
 ```
 
 ## Technologies
@@ -75,6 +84,38 @@ flutter_user_hub/
 - **Dio**: HTTP client for API requests
 - **Hive**: Lightweight and fast key-value database
 - **Flutter Test**: Testing framework for Flutter applications
+
+## Installation
+
+### Option 1: Build from Source
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/yourusername/flutter_user_hub.git
+   ```
+
+2. Navigate to the project directory:
+   ```bash
+   cd flutter_user_hub
+   ```
+
+3. Install dependencies:
+   ```bash
+   flutter pub get
+   ```
+
+4. Run the app:
+   ```bash
+   flutter run
+   ```
+
+### Option 2: Install APK Directly
+
+1. Download the latest APK from the [Releases](https://github.com/yourusername/flutter_user_hub/releases) section.
+
+2. On your Android device, enable installation from unknown sources in your security settings.
+
+3. Open the downloaded APK file to install the application.
 
 ## Usage
 
