@@ -88,7 +88,7 @@ flutter_user_hub/
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/flutter_user_hub.git
+   git clone https://github.com/DevNebula6/flutter_user_hub.git
    ```
 
 2. Navigate to the project directory:
