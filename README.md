@@ -79,8 +79,7 @@ flutter_user_hub/
 - **Flutter**: UI toolkit for building natively compiled applications
 - **BLoC Pattern**: State management solution for clean architecture
 - **Dio**: HTTP client for API requests
-- **Hive**: Lightweight and fast key-value database
-- **Flutter Test**: Testing framework for Flutter applications
+- **Flutter Secure Storage**: Lightweight and fast key-value database
 
 ## Installation
 
@@ -126,8 +125,7 @@ flutter_user_hub/
 ## Acknowledgments
 
 - Data provided by [JSONPlaceholder](https://jsonplaceholder.typicode.com/)
-- Icons from [Font Awesome](https://fontawesome.com/)
-
+ 
 ## License
 
 This project is licensed under the MIT License - see the LICENSE file for details.
